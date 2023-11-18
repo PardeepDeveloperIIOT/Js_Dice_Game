@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>⚡Js Dice Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="">
+    <br />
+    <h1 class="text-center project text-black">Project : 🎲 Dice Game</h1>
+    <br />
+    <!-- Statu : Win  -->
+    <h3 class="rounded-3 px-1 text-center statusText">
+      <span class="status"> Target: 20</span>
+    </h3>
+    <br />
+    <main class="d-flex justify-content-between align-items-center p-2">
+      <!-- Player 1 -->
+      <section class="player player-0 player-active">
+        <h2 class="name" id="name-0">Player-0</h2>
+        <p class="score" id="score-0">45</p>
+        <div class="current">
+          <p class="current-lable">Current</p>
+          <p class="current-score" id="current-0">0</p>
+        </div>
+      </section>
+      <!-- Player-2 -->
+      <section class="player player-1">
+        <h2 class="name" id="name-1">Player-1</h2>
+        <p class="score" id="score-1">80</p>
+        <div class="current">
+          <p class="current-lable">Current</p>
+          <p class="current-score" id="current-1">0</p>
+        </div>
+      </section>
+      <!-- Controles  -->
+      <div class="controles">
+        <img src="./images/dice-1.svg" alt="playing dic" class="dice" />
+        <button class="btn btn-danger btn-new">⏳New Game</button>
+        <button class="btn btn-primary btn-roll">⚡Roll dice</button>
+        <button class="btn btn-info btn-hold">🤷‍♂️Hold</button>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
